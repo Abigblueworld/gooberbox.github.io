@@ -1,4 +1,4 @@
 function Makesound(){
- var audio = document.getElementsByTagName("audio")[0];
+ var audio = document.getElementsByTagName("audio")[35];
  audio.play();
   }
