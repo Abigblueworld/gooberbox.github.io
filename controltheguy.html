@@ -8,10 +8,12 @@
   Ywalking = 0
   function Left(){
     Xwalking = (Xwalking - 10)
+    walker.style.left = Xwalking
     console.error("move left at position of " + Xwalking)
   }
   function Right(){
     Xwalking = (Xwalking + 10)
+    walker.style.right = Xwalking
     console.error("move right at position of " + Xwalking)
   }
 </script>
